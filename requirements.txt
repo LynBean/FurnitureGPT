@@ -1,0 +1,6 @@
+cv2
+flask
+flask_cors
+imaginairy
+openai
+python-dotenv

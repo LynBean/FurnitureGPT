@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.camera-container {
+  position: relative;
+}
+
+#image-preview {
+  transform: scaleX(-1);
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-container button {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-container button:hover {
+  background-color: #3e8e41;
+}
+
+.options-container {
+  margin-top: 20px;
+}
+
+.options-container label {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.options-container input[type="checkbox"] {
+  display: none;
+}
+
+.options-container input[type="checkbox"] + label:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.options-container input[type="checkbox"]:checked + label:before {
+  content: '\2713';
+  color: #fff;
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+}
+
+.chatbox-container {
+  margin-top: 20px;
+}
+
+.chatbox-container label {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.chatbox-container input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.chatbox-container input[type="text"]:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px #4CAF50;
+}
+
+.search-btn {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.search-btn:hover {
+  background-color: #3e8e41;
+}
+
+#url-container {
+  margin-top: 20px;
+  font-size: 20px;
+}

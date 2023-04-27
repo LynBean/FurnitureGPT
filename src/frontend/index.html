@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Image Selector</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      label[for="description"] {
+        font-size: 1.2rem; /* Increase the font size of the "Description" label */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="camera-container">
+        <img id="image-preview" width="300">
+        <div class="btn-container">
+          <button id="capture-btn">Upload Image</button>
+          <br><span id="loading" style="display: none;">LOADING...</span> <!-- Add a "LOADING" message that is initially hidden -->
+        </div>
+        <input type="file" id="file-input">
+      </div>
+      <div class="options-container">
+        <br><label for="options">Select Furniture:</label>
+        <br>
+        <input type="checkbox" id="option-chair" name="furniture" value="chair">
+        <label for="option-chair">Chair</label>
+        <br>
+        <input type="checkbox" id="option-sofa" name="furniture" value="sofa">
+        <label for="option-sofa">Sofa</label>
+        <br>
+        <input type="checkbox" id="option-cabinet" name="furniture" value="cabinet">
+        <label for="option-cabinet">Cabinet</label>
+        <br>
+        <input type="checkbox" id="option-table" name="furniture" value="table">
+        <label for="option-table">Table</label>
+        <br>
+        <input type="checkbox" id="option-wardrobe" name="furniture" value="wardrobe">
+        <label for="option-wardrobe">Wardrobe</label>
+        <br>
+        <input type="checkbox" id="option-bookcase" name="furniture" value="bookcase">
+        <label for="option-bookcase">Bookcase</label>
+        <br>
+        <input type="checkbox" id="option-dresser" name="furniture" value="dresser">
+        <label for="option-dresser">Dresser</label>
+        <br>
+        <input type="checkbox" id="option-bed" name="furniture" value="bed">
+        <label for="option-bed">Bed</label>
+        <br>
+        <input type="checkbox" id="option-coffeetable" name="furniture" value="coffeetable">
+        <label for="option-coffeetable">Coffee Table</label>
+        <br>
+        <input type="checkbox" id="option-nightstand" name="furniture" value="nightstand">
+        <label for="option-nightstand">Nightstand</label>
+        <br>
+        <input type="checkbox" id="option-filecabinet" name="furniture" value="filecabinet">
+        <label for="option-filecabinet">File Cabinet</label>
+        <br>
+      </div>
+      <div class="description-container">
+        <label for="description" style="font-size: 1.5rem;">Description:</label> <!-- Increase the font size of the "Description" label -->
+        <input type="text" id="description">
+      </div>
+      <div id="url-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
