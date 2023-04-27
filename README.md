@@ -55,7 +55,7 @@
 
 <h2 align="center">👨‍💻 Contributor</h2>
 
-<p>The FurnitureGPT project was developed by a skilled front-end engineer. Visit his GitHub profile at <a href="https://github.com/asd">https://github.com/Zoriannnnn</a>.</p>
+<p>The FurnitureGPT project was developed by a skilled front-end engineer. Visit his GitHub profile at <a href="https://github.com/Zoriannnnn">Zoriannnnn</a>.</p>
 
 <h2 align="center">👋 Conclusion</h2>
 
