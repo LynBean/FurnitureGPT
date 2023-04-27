@@ -53,6 +53,15 @@
 
 <p>FurnitureGPT aims to integrate custom furniture design capabilities, allowing users to create their own furniture designs. Users will be able to customize the furniture's shape, size, color, and other features, giving them more control over the furniture generation process.</p>
 
+<h3>App Design 📱</h3>
+
+<div style="display:flex;">
+  <img src="https://user-images.githubusercontent.com/57824016/234830517-73d39781-cef2-4bff-ba23-61b66d73bf9b.png" width="200">
+  <img src="https://user-images.githubusercontent.com/57824016/234830532-90f177cf-4e0e-4b59-ab59-bce404cb7a33.png" width="200">
+  <img src="https://user-images.githubusercontent.com/57824016/234830540-78f8234d-bf7c-48cf-96fd-228845b92139.png" width="200">
+  <img src="https://user-images.githubusercontent.com/57824016/234830552-8e9065f4-b868-43aa-9173-91d45ccd4888.png" width="200">
+</div>
+
 <h2 align="center">👨‍💻 Contributor</h2>
 
 <p>The FurnitureGPT project was developed by a skilled front-end engineer. Visit his GitHub profile at <a href="https://github.com/Zoriannnnn">Zoriannnnn</a>.</p>
